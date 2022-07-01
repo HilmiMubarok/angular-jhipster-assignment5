@@ -43,6 +43,18 @@
             </span>
           </a>
           <ul class="dropdown-menu" ngbDropdownMenu aria-labelledby="entity-menu">
+            <li>
+              <a
+                class="dropdown-item"
+                routerLink="hero"
+                routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }"
+                (click)="collapseNavbar()"
+              >
+                <fa-icon icon="asterisk" [fixedWidth]="true"></fa-icon>
+                <span jhiTranslate="global.menu.entities.hero">Hero</span>
+              </a>
+            </li>
             <!-- jhipster-needle-add-entity-to-menu - JHipster will add entities to the menu here -->
           </ul>
         </li>
@@ -167,6 +179,14 @@
               </a>
             </li>
           </ul>
+        </li>
+        <li class="nav-item" routerLinkActive [routerLinkActiveOptions]="{ exact: true }">
+          <a class="nav-link" routerLink="/about" (click)="collapseNavbar()">
+            <span>
+              <fa-icon icon="user"></fa-icon>
+              <span jhiTranslate="global.menu.about">About</span>
+            </span>
+          </a>
         </li>
       </ul>
     </div>

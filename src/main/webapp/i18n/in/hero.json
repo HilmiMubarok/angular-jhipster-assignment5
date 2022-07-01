@@ -1,0 +1,27 @@
+{
+  "myappApp": {
+    "hero": {
+      "home": {
+        "title": "Heroes",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Buat Hero baru",
+        "createOrEditLabel": "Buat atau edit Hero",
+        "notFound": "No Heroes found"
+      },
+      "created": "Hero dengan id {{ param }} telah dibuat",
+      "updated": "Hero dengan id {{ param }} telah diperbaharui",
+      "deleted": "Hero dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Hero {{ id }}?"
+      },
+      "detail": {
+        "title": "Hero"
+      },
+      "about": {
+        "title": "Halo, nama saya Hilmi Mubarok"
+      },
+      "id": "ID",
+      "name": "Name"
+    }
+  }
+}

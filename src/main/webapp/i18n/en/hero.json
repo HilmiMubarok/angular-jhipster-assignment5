@@ -1,0 +1,27 @@
+{
+  "myappApp": {
+    "hero": {
+      "home": {
+        "title": "Heroes",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Hero",
+        "createOrEditLabel": "Create or edit a Hero",
+        "notFound": "No Heroes found"
+      },
+      "created": "A new Hero is created with identifier {{ param }}",
+      "updated": "A Hero is updated with identifier {{ param }}",
+      "deleted": "A Hero is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Hero {{ id }}?"
+      },
+      "detail": {
+        "title": "Hero"
+      },
+      "about": {
+        "title": "Hi, my name is Hilmi Mubarok"
+      },
+      "id": "ID",
+      "name": "Name"
+    }
+  }
+}
